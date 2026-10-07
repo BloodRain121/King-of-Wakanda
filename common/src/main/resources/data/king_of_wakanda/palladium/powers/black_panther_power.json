@@ -1,0 +1,92 @@
+{
+  "name": "Black Panther",
+  "icon": "king_of_wakanda:textures/icon/suit_icon.png",
+  "background": "palladium:textures/block/vibranium_ore.png",
+  "primary_color": "#70CD56",
+  "secondary_color": "#414141",
+  "abilities": {
+  "speed": {
+  "type": "palladium:attribute_modifier",
+  "icon": "minecraft:textures/mob_effect/speed.png",
+    "title": {
+      "translate": "ability.king_of_wakanda.black_panther.speed"
+    },
+  "hidden": false,
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": 0.07,
+  "operation": 0,
+    "conditions": {
+      "enabling": [
+        {
+          "type": "palladium:sprinting"
+        }
+      ]
+    }
+},
+    "jump_power": {
+      "type": "palladium:attribute_modifier",
+      "icon": "minecraft:textures/mob_effect/jump_boost.png",
+      "title": {
+        "translate": "ability.king_of_wakanda.black_panther.jump"
+      },
+      "hidden": false,
+      "attribute": "palladium:jump_power",
+      "amount": 0.4,
+      "operation": 0
+    },
+    "strenght": {
+      "type": "palladium:attribute_modifier",
+      "icon": "king_of_wakanda:textures/icon/strenght_icon.png",
+      "title": {
+        "translate": "ability.king_of_wakanda.black_panther.strenght"
+      },
+      "hidden": false,
+      "attribute": "palladium:punch_damage",
+      "amount": 8,
+      "operation": 0
+    },
+  "resistance": {
+  "type": "palladium:attribute_modifier",
+  "icon": "minecraft:textures/mob_effect/resistance.png",
+    "title": {
+      "translate": "ability.king_of_wakanda.black_panther.resistance"
+    },
+  "hidden": false,
+  "attribute": "minecraft:generic.knockback_resistance",
+  "amount": 8,
+  "operation": 0
+},
+  "fall_resistance": {
+  "type": "palladium:attribute_modifier",
+  "icon": "minecraft:textures/mob_effect/slow_falling.png",
+    "title": {
+      "translate": "ability.king_of_wakanda.black_panther.fall_resistance"
+    },
+  "hidden": false,
+  "attribute": "palladium:fall_resistance",
+  "amount": 35,
+  "operation": 0
+},
+  "health": {
+  "type": "palladium:attribute_modifier",
+  "icon": "minecraft:textures/mob_effect/instant_health.png",
+    "title": {
+      "translate": "ability.king_of_wakanda.black_panther.health"
+    },
+  "hidden": false,
+  "attribute": "minecraft:generic.max_health",
+  "amount": 10,
+  "operation": 0
+},
+    "healing": {
+    "type": "palladium:healing",
+    "icon": "minecraft:textures/mob_effect/regeneration.png",
+      "title": {
+        "translate": "ability.king_of_wakanda.black_panther.healing"
+      },
+    "hidden": false,
+    "frequency": 10000000,
+    "amount": 1
+}
+  }
+}

@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "${mod_license}"
+
+[[mods]]
+modId = "king_of_wakanda"
+version = "${version}"
+displayName = "${mod_name}"
+authors = "${mod_author}"
+description = '''
+Become the Black-Panther!
+'''
+#logoFile = ""
+
+[[dependencies.king_of_wakanda]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.king_of_wakanda]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.king_of_wakanda]]
+modId = "palladium"
+mandatory = true
+versionRange = "[1.20.1-4.2.0,)"
+ordering = "AFTER"
+side = "BOTH"

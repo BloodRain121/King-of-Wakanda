@@ -1,0 +1,11 @@
+{
+  "name": "cape",
+  "icon": "minecraft:diamond",
+  "abilities": {
+	"cape": {
+    "type": "palladium:render_layer",
+    "render_layer": "king_of_wakanda:classic_suit_cape",
+    "hidden": true
+  }
+ }
+}

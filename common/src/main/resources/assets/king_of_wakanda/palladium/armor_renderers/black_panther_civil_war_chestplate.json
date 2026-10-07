@@ -1,0 +1,11 @@
+{
+    "textures": {
+      "normal": "king_of_wakanda:textures/models/suit/civil_war/black_panther_civil_war_chestplate.png",
+        "slim": "king_of_wakanda:textures/models/suit/civil_war/black_panther_civil_war_chestplate.png"
+    },
+    "hide_second_layer": true,
+    "model_layers": {
+      "normal": "palladium:humanoid#tight_suit",
+      "slim": "palladium:humanoid#tight_suit_slim"
+    }
+    }

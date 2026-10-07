@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "king_of_wakanda",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Become the Black-Panther!",
+  "authors": [
+    "${mod_author}"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "${mod_license}",
+  "icon": "assets/king_of_wakanda/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bloodrain.king_of_wakanda.fabric.KingOfWakandaFabric"
+    ]
+  },
+  "mixins": [
+    "king_of_wakanda.mixins.json",
+    "king_of_wakanda-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "palladium": ">=1.20.1-4.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "model_layer": "king_of_wakanda:humanoid#cape",
+      "model_type": "palladium:caped_humanoid",
+      "texture": "king_of_wakanda:textures/models/suit/classic/classic_suit_cape.png",
+      "hidden_body_parts": "cape"
+    },
+    {
+      "model_layer": "king_of_wakanda:classic_suit_collar",
+      "texture": "king_of_wakanda:textures/models/suit/classic/classic_suit_collar.png"
+    }
+  ]
+}
